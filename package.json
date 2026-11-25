@@ -1,0 +1,16 @@
+{
+  "name": "trilha3-testes-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trilha 3 - Testes de API e Contrato (Brasil API e restful-booker)",
+  "scripts": {
+    "test": "playwright test",
+    "test:brasil": "playwright test --project=brasil-api",
+    "test:booker": "playwright test --project=restful-booker",
+    "relatorio": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "ajv": "8.20.0"
+  }
+}
